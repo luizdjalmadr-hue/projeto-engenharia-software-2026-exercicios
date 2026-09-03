@@ -16,3 +16,6 @@ Thumbs.db
 .env
 *.key
 *.cnf
+.pytest_cache/
+target/
+*.class

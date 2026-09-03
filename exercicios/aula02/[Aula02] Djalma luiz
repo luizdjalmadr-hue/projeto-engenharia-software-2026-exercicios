@@ -1,0 +1,219 @@
+Parte A
+Item (caso da biblioteca)
+a	Tela de registro de empréstimo:escopo do projeto
+b	Migração dos 12.000 títulos do sistema antigo:escopo do projeto
+c	Compra de leitores de código de barras:escopo do produto
+d	Treinamento das 3 servidoras:escopo do projeto
+e	Relatório de obras em atraso:escopo do projeto
+f	Manutenção do sistema no ano seguinte à entrega:escopo do projeto
+g	Etiquetagem física dos 12.000 exemplares:escopo do produto
+h	Cálculo de multa por atraso:escopo do projeto
+i	Contratação de uma quarta servidora:escopo do produto
+j	Backup automatizado da base:escopo do projeto                                                                                      
+A.2 os dois itens são de compra de leitores de codigo de barras e contratar mais uma servidor pois tera um gasto.
+
+PARTE B
+item:
+i1	Compra de leitores de código de barras
+i2	Treinamento das 3 servidoras
+i3	Relatório de obras em atraso
+i4	Manutenção do sistema no ano seguinte à entrega
+i5	Etiquetagem física dos 12.000 exemplares
+i6	Cálculo de multa por atraso
+i7	Contratação de uma quarta servidora
+i8	Backup automatizado da base
+Exclusões                        observação
+E1:mudar de um sistema.          feito pelo analista de software
+E2:compra de leitores            organizado pelo gerente
+E3:treinamento de agentes        feito pelos desiguinados que estão a mais tempo
+E4:obras em atraso               organizado pelo arquiteto/engenheiro
+E5:sistema com problemas         organizado pelo equipe de TI
+Entregas.
+D1:leitores de barras
+D2: treinamento obrigatorio
+D3:atraso das obras
+D4:manutenção do ano que vem
+D5: etiqueta 12.000 exemplares
+D6:multas em atraso
+D7: contratar servidora
+D8:backup obrigatorio
+
+Critérios de aceitação do projeto 
+
+C1: leitores de codigo
+C2: treinamento para novatos
+C3: relatório das obras
+C4: manutenções do sistema 
+C5:etiquetagem dos exemplares.
+
+Como se verifica 
+Produto com segurança 
+Treinos para adaptação 
+Relatório do trabalho 
+Manutenção sistema 
+Etiqueta dos exemplares
+
+B2
+Se o treinamento dos agentes novos não estivesse registrado teria um problema por que seria necessário aumenta a quantidade de trabalho de funcionários que ejá estão em suas áreas o que resultaria em uma sobrecarrega de trabalho e fazendo eles perderem o desempenho
+Registrada: com o treinamento de novos agentes aumentaria a produção do trabalho por que não teria o por que tira outros funcionários de seus respectivos deveres assim, os novatos também podendo ajuda até que estar com dificuldade dentro de suas áreas.
+
+PARTE C
+eap.md
+1. Sistema da Biblioteca do Campus
+
+   1.1 Gerência do Projeto
+      1.1.1 Planejamento e acompanhamento do projeto [24h]
+      1.1.2 Controle das atividades do projeto [24h]
+
+   1.2 Registro de Empréstimos
+      1.2.1 Desenvolvimento da tela de registro de empréstimos [40h]
+      1.2.2 Testes do registro de empréstimos [24h]
+
+   1.3 Controle de Obras em Atraso
+      1.3.1 Desenvolvimento do relatório de obras em atraso [32h]
+      1.3.2 Testes do relatório de obras em atraso [16h]
+
+   1.4 Controle de Multas
+      1.4.1 Desenvolvimento do cálculo de multa por atraso [32h]
+      1.4.2 Testes do cálculo de multas [16h]
+
+   1.5 Migração dos Dados
+      1.5.1 Preparação dos 12.000 títulos para migração [40h]
+      1.5.2 Migração e conferência dos 12.000 títulos [56h]
+
+   1.6 Treinamento das Servidoras
+      1.6.1 Preparação do treinamento das 3 servidoras [16h]
+      1.6.2 Realização do treinamento das 3 servidoras [16h]
+
+   1.7 Segurança e Backup
+      1.7.1 Configuração do backup automatizado da base [24h]
+      1.7.2 Testes de recuperação do backup [16h]
+
+   1.8 Etiquetagem dos Exemplares
+      1.8.1 Preparação da etiquetagem dos 12.000 exemplares [24h]
+      1.8.2 Etiquetagem física dos 12.000 exemplares [80h]
+
+eap.pulm
+@startwbs
+
+* Sistema da Biblioteca do Campus
+
+** 1.1 Gerência do Projeto
+*** 1.1.1 Planejamento e acompanhamento do projeto [24h]
+*** 1.1.2 Controle das atividades do projeto [24h]
+
+** 1.2 Registro de Empréstimos
+*** 1.2.1 Desenvolvimento da tela de registro de empréstimos [40h]
+*** 1.2.2 Testes do registro de empréstimos [24h]
+
+** 1.3 Controle de Obras em Atraso
+*** 1.3.1 Desenvolvimento do relatório de obras em atraso [32h]
+*** 1.3.2 Testes do relatório de obras em atraso [16h]
+
+** 1.4 Controle de Multas
+*** 1.4.1 Desenvolvimento do cálculo de multa por atraso [32h]
+*** 1.4.2 Testes do cálculo de multas [16h]
+
+** 1.5 Migração dos Dados
+*** 1.5.1 Preparação dos 12.000 títulos para migração [40h]
+*** 1.5.2 Migração e conferência dos 12.000 títulos [56h]
+
+** 1.6 Treinamento das Servidoras
+*** 1.6.1 Preparação do treinamento das 3 servidoras [16h]
+*** 1.6.2 Realização do treinamento das 3 servidoras [16h]
+
+** 1.7 Segurança e Backup
+*** 1.7.1 Configuração do backup automatizado da base [24h]
+*** 1.7.2 Testes de recuperação do backup [16h]
+
+** 1.8 Etiquetagem dos Exemplares
+*** 1.8.1 Preparação da etiquetagem dos 12.000 exemplares [24h]
+*** 1.8.2 Etiquetagem física dos 12.000 exemplares [80h]
+
+@endwbs
+
+nivel/pacote 1
+Campo	Conteúdo
+descrição	Etiquetar fisicamente os 12.000 exemplares da biblioteca com código de barras
+entrega	12.000 exemplares etiquetados + lista de conferência assinada
+responsável	Equipe de apoio
+estimativa	80 horas
+predecessor	Compra das etiquetas e leitores concluída
+critério de conclusão	100% dos exemplares etiquetados e conferidos; leitura funciona em todos
+premissas	Etiquetas e equipamentos entregues no prazo; espaço físico disponível
+exclusões	Cadastro no sistema, reorganização do acervo, reparo de exemplares danificados
+
+nivel/pacote 2
+Campo	Conteúdo
+descrição	Elaborar material, slides e exercícios para capacitação das servidoras
+entrega	Apostila + apresentação + roteiro prático
+responsável	Analista de Sistemas / Responsável Técnico
+estimativa	16 horas
+predecessor	Módulos principais do sistema definidos
+critério de conclusão	Material revisado e aprovado; carga horária e conteúdo definidos
+premissas	Conhecimento prévio do sistema; disponibilidade das servidoras
+exclusões	Ministrar o treinamento, avaliação de aprendizado, impressão do material
+
+nivel/pacote 3
+Campo	Conteúdo
+descrição	Pesquisar fornecedores, orçar e adquirir leitores de código e etiquetas
+entrega	4 leitores de código + 12.500 etiquetas + notas fiscais
+responsável	Gerente da Biblioteca / Administração
+estimativa	20 horas
+predecessor	Especificações técnicas definidas e orçamento liberado
+critério de conclusão	Equipamentos recebidos, funcionando e dentro do orçamento aprovado
+premissas	Verba disponível; fornecedores entregam no prazo; produtos conforme especificação
+exclusões	Instalação, configuração, manutenção e reposição de equipamentos
+
+nivel/pacote 4
+Campo	Conteúdo
+descrição	Extrair dados do sistema antigo, adaptar formato e importar para o novo
+entrega	Base migrada + relatório de conferência + validação de integridade
+responsável	Analista de Dados / Desenvolvedor
+estimativa	56 horas
+predecessor	Banco de dados novo estruturado e validado
+critério de conclusão	100% dos registros migrados; sem perda ou distorção de dados; conferência aleatória de 10% aprovada
+premissas	Acesso ao sistema antigo garantido; dados consistentes; documentação do formato disponível
+exclusões	Limpeza de dados históricos, alteração de estrutura, correção de inconsistências antigas
+
+C3
+Pacote	1. Tem responsável?	2. Verificável?	Resultado	Observação / Correção
+Etiquetagem Física	✅ Sim — Servidoras / Equipe de apoio	✅ Sim — contagem e leitura das etiquetas	✅ Aprovado	—
+Preparação do Treinamento	✅ Sim — Analista de Sistemas	✅ Sim — material escrito e revisado	✅ Aprovado	—
+Compra de Equipamentos	✅ Sim — Gerente da Biblioteca	✅ Sim — nota fiscal + equipamentos recebidos	✅ Aprovado	—
+Migração de Dados	✅ Sim — Analista de Dados	⚠️ Parcial — "conferência" pode ser subjetiva	🔧 Ajustado — adicionei critério: conferência de 10% aleatória + contagem total de registros
+Tela de Empréstimo	✅ Sim — Desenvolvedor	✅ Sim — funcionalidade operando + testes	✅ Aprovado	—
+Relatório de Atrasos	✅ Sim — Desenvolvedor	✅ Sim — relatório gerado com dados corretos	✅ Aprovado	—
+Cálculo de Multas	✅ Sim — Desenvolvedor	✅ Sim — cálculos testados com valores esperados	✅ Aprovado	—
+Backup Automatizado	✅ Sim — Técnico de TI	✅ Sim — backup executado + restauração testada	✅ Aprovado	—
+
+PARTE D
+D1: soma das horas 3+10+14+8+22+16+12=95 horas totais que em semanas 95 dividido por 40 da 2 semanas
+D2: cada um dos 7 pedidos podem causar problemas devido que se um atrasar os outros tambem vão pois teriam que da prioridade ao pedido qu estar atrasado.
+D3: a equipe deveria ter feito uma tabela de controle de mundança para organizar o que for pedido para não atrapalahar o que ja foi feito ou o que estar sendo feito. e a conversa teria sido diferente pois teria sido apresentado o por que algumas mudanças aetariam o projeto.
+
+PARTE E
+E1:Solicitação de mudança 
+Campo:
+Data:
+Solicitante:
+Descrição:
+Justificativa:
+Item de escopo afetado:
+
+Conteúdo 
+15 de outubro de 2026
+Coordenação de pós-graduação 
+Incluir que o sistema controle os empréstimos entre bibliotecas de outras instituições 
+A coordenação justifica que quer ter acesso a todos os empréstimos das instituições 
+Novo .relacionado a 1.6 sistema de controle 
+
+Recomendação da equipe: um sistema que terá acesso a todas as instituições que controlará o que sai e entre entra dos empréstimos das bibliotecas
+E2: quem deve pedir essa solicitação e a coodernação pois estar buscando melhorias para o controle das instituições
+
+PARTE F
+O documento é do Sistema de Gestão Escolar da Secretaria de Educação do Estado de Pernambuco, disponível no Portal de Compras Governamentais — PE Integral, no endereço: https://www.peintegral.pe.gov.br/contratos/9876
+ 
+A decomposição é feita por entregas, cada uma com seu produto final definido. Inclui itens não relacionados diretamente ao código: treinamento de professores, conversão de dados antigos, elaboração de guias de uso e assistência técnica.
+ 
+A gestão do projeto está presente como um grupo de atividades transversais a todas as etapas. O maior problema é que várias atividades dependentes aparecem no mesmo nível, sem indicar a ordem ou precedência entre elas, o que pode gerar confusão e atrasos.
